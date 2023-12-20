@@ -1,0 +1,248 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	 background-color: #bdf8ee; 
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+	height: 100vh;
+	background: linear-gradient(to top left, #ccccff 0%, #ffffff 100%);
+	}
+
+.container {
+    margin: 20px auto;  
+}
+
+
+.panel-heading {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+#forgot {
+    min-width: 100px;
+    margin-left: auto;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.form-inline label {
+    padding-left: 10px;
+    margin: 0;
+    cursor: pointer
+}
+
+
+.input-field {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    color: #4343ff
+}
+
+input[type='text'],
+input[type='password'], select {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none
+}
+
+.socialimg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative
+}
+
+a[target='_blank'] {
+    position: relative;
+    transition: all 0.1s ease-in-out
+}
+
+.bordert {
+    border-top: 1px solid #aaa;
+    position: relative
+}
+
+.bordert:after {
+    content: "or connect with";
+    position: absolute;
+    top: -13px;
+    left: 33%;
+    background-color: #fff;
+    padding: 0px 8px
+}
+
+@media(max-width: 360px) {
+    #forgot {
+        margin-left: 0;
+        padding-top: 10px
+    }
+
+    body {
+        height: 100%
+    }
+
+    .container {
+        margin: 30px 0
+    }
+
+    .bordert:after {
+        left: 25%
+    }
+}
+.my_header {
+	text-align: center;
+
+	padding-bottom: 5px;
+	color: #004080;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.mylogo {
+	width: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-block: 15px;
+}
+
+
+
+.navbar {
+	
+	padding: 0rem 1rem;
+}
+
+.navbar a {
+	font-size: 18px;
+}
+
+.mylink {
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-block: 15px;
+}
+
+.mylink:hover {
+	color:purple;
+}
+
+.active {
+	font-weight: bold;
+}
+
+.myLogin {
+	width: auto;
+	cursor: pointer;
+	margin-left: auto; 
+	margin-right: 0;
+}
+
+.my_btn, #submit{
+	background-color:#BE6ED0; 
+	padding: 5px;
+	border-radius:rounded;
+	box-shadow: 1px 1px black;
+}
+
+.update_btn:hover{
+	background-color: #F2BCFE;
+}
+
+input[type=text], input[type=password], input[type=email], select {
+	width: 40%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus
+	{
+	background-color: #ddd;
+	outline: none;
+}
+
+
+.myText {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: #BE6ED0;
+    text-align: right;
+    font-size: 4vw;
+    text-shadow: 2px 2px black;
+}
+
+.myLoginBtn{
+	background-color: #BE6ED0;
+	margin-top: 20px;
+    border-radius: 25px;
+}
+
+.myLoginBtn:hover, .mysignup-btn:hover {
+	background-color: #F2BCFE;
+	box-shadow: 3px 3px white;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+
+.myuser{
+	width:250px; 
+	height:250px;
+}
+
+.input-group {
+	margin-left: 35%;
+	margin-top: 8px;
+}
+
+.mysearchbox {
+	width: 50%;
+	float: right
+}
+
+.mysearchbox input[type=search] {
+	width: 100%;
+	padding: 12px 20px; display : inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	resize: vertical;
+	display: inline-block;
+}
+
+.mytab{
+padding: 20px	
+}
